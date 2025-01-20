@@ -1,0 +1,17 @@
+body {
+  background-color: #1a1a1a;
+}
+
+.logo {
+  max-height: 100px;
+  background-color: #e6e6e6;
+}
+
+nav ul li a {
+  color: #e6e6e6 !important;
+}
+
+nav ul li a:hover {
+  color: #00ffff !important;
+  font-weight: bold;
+}
