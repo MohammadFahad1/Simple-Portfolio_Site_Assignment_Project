@@ -16,18 +16,28 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-.hero-section{
+.hero-section {
   height: 90vh;
 }
 
-.hero-text{
-  max-width: 50%;
-}
-
-.hero-img{
+.hero-img {
   max-width: 300px;
 }
 
-.social-icon{
+.social-icon {
   font-size: 2rem;
+}
+
+.toggler-icon {
+  color: #fff !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    max-width: 50%;
+  }
+
+  .portfolio-item {
+    width: 75% !important;
+  }
 }

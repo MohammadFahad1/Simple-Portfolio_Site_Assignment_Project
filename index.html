@@ -28,7 +28,7 @@
                 class="logo"
             /></a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler toggler-icon bg-secondary"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -73,38 +73,163 @@
         </nav>
         <!-- Navbar Ends -->
         <!-- Hero Section Starts -->
-         <section class="w-100 hero-section py-5 d-md-flex justify-content-between align-items-center">
+        <section
+          class="w-100 py-5 d-flex flex-column-reverse flex-md-row justify-content-between align-items-center hero-section"
+        >
           <div class="hero-text">
-            <h1 class="display-4 fw-bolder text-info">Hi! <br>
+            <h1 class="display-4 fw-bolder text-info">
+              Hi! <br />
               I'M FAHAD MONSHI
             </h1>
-            <h4 class="text-light">Software Developer | Problem Solver | Programmer</h4><br>
+            <h4 class="text-light">
+              Software Developer | Problem Solver | Programmer
+            </h4>
+            <br />
             <p class="text-light">
-              I am an enthusiastic JavaScript developer with knowing some framework for the frontend and the backend. I know Basic PHP
-              and MySQL but basically a MERN developer.
-            </p><br>
+              I am an enthusiastic JavaScript developer with knowing some
+              framework for the frontend and the backend. I know Basic PHP and
+              MySQL but basically a MERN developer.
+            </p>
+            <br />
             <div class="d-flex">
-              <a href="https://github.com/mohammadFahad1/" target="_blank" class="text-info social-icon me-4">
+              <a
+                href="https://github.com/mohammadFahad1/"
+                target="_blank"
+                class="text-info social-icon me-4"
+              >
                 <i class="fa-brands fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/fahad4bd/" target="_blank" class="text-info social-icon me-4">
+              <a
+                href="https://www.linkedin.com/in/fahad4bd/"
+                target="_blank"
+                class="text-info social-icon me-4"
+              >
                 <i class="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://www.facebook.com/MdFahad.index" target="_blank" class="text-info social-icon me-4">
+              <a
+                href="https://www.facebook.com/MdFahad.index"
+                target="_blank"
+                class="text-info social-icon me-4"
+              >
                 <i class="fa-brands fa-facebook"></i>
               </a>
-              <a href="images/md_fahad_monshi_resume.pdf" target="_blank" class="me-4">
-                <button class="btn btn-info py-1 mt-2">Resume <i class="fa-solid fa-download"></i></button>
+              <a
+                href="images/md_fahad_monshi_resume.pdf"
+                target="_blank"
+                class="me-4"
+              >
+                <button class="btn btn-info py-1 mt-2">
+                  Resume <i class="fa-solid fa-download"></i>
+                </button>
               </a>
             </div>
           </div>
-          <div class="hero-img">
-            <img src="images/fahad1.jpg" class="img-fluid" alt="">
+          <div class="hero-img border border-2 border-secondary-subtle">
+            <img src="images/fahad1.jpg" class="img-fluid" alt="" />
           </div>
-         </section>
+        </section>
         <!-- Hero Section Ends -->
       </header>
       <!-- Header Area Ends -->
+      <main>
+        <!-- Portfolio Section Starts -->
+        <section class="portfolio my-5">
+          <h1 class="text-light text-center fw-bolder mb-5">Portfolio</h1>
+          <!-- Portfolio Items Starts -->
+          <div class="portfolio-item border w-100 mx-auto border-2 row p-2">
+            <div class="col-sm-12 col-md-6">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="projects-img/sioibd1.png"
+                      class="d-block w-100"
+                      height="350"
+                      alt="SiOi Global Trade Website Screenshot"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="projects-img/sioibd2.png
+                    "
+                      class="d-block w-100"
+                      height="350"
+                      alt="SiOi Global Trade Website Screenshot"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 text-justify">
+              <h4 class="text-info fw-bolder">
+                SiOi Global Trade
+                <a href="" class="text-info"
+                  ><i class="fa-brands fa-staylinked ml-3"></i
+                ></a>
+                <a href="" class="text-info"
+                  ><i class="fa-brands fa-codepen ml-3"></i
+                ></a>
+              </h4>
+              <p class="text-light">
+                SiOi Global Trade is an online platform for buying and selling
+                of automobile accessories. They import and export vehicles as
+                well as parts of different vehicles. This is a full stack web
+                application.
+              </p>
+              <ul class="text-light">
+                <li>User can see the list of vehicles</li>
+                <li>User can see the details of the vehicle</li>
+                <li>User can see the image of the vehicle</li>
+                <li>User can see the price of the vehicle</li>
+                <li>Uer Can Login and can Create Account.</li>
+              </ul>
+              <div>
+                <button type="button" class="btn btn-sm btn-secondary">
+                  HTML
+                </button>
+                <button type="button" class="btn btn-sm btn-secondary">
+                  CSS
+                </button>
+                <button type="button" class="btn btn-sm btn-secondary">
+                  Javascript
+                </button>
+                <button type="button" class="btn btn-sm btn-secondary">
+                  JQuery
+                </button>
+                <button type="button" class="btn btn-sm btn-secondary">
+                  PHP
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Items Ends -->
+        </section>
+        <!-- Portfolio Section Ends -->
+      </main>
     </div>
     <script src="js/bootstrap.min.js"></script>
   </body>
