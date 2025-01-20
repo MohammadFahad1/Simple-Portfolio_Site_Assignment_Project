@@ -15,3 +15,19 @@ nav ul li a:hover {
   color: #00ffff !important;
   font-weight: bold;
 }
+
+.hero-section{
+  height: 90vh;
+}
+
+.hero-text{
+  max-width: 50%;
+}
+
+.hero-img{
+  max-width: 300px;
+}
+
+.social-icon{
+  font-size: 2rem;
+}
