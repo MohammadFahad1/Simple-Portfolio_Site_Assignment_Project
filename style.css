@@ -36,6 +36,16 @@ nav ul li a:hover {
   color: #fff !important;
 }
 
+.contact {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+footer {
+  border-top: 1px solid grey;
+}
+
 @media only screen and (min-width: 768px) {
   .hero-text {
     max-width: 50%;
@@ -43,5 +53,9 @@ nav ul li a:hover {
 
   .portfolio-item {
     width: 75% !important;
+  }
+
+  .contact {
+    width: 50%;
   }
 }
