@@ -24,6 +24,10 @@ nav ul li a:hover {
   max-width: 300px;
 }
 
+.hero-img img {
+  margin: 2rem auto 0 auto;
+}
+
 .social-icon {
   font-size: 2rem;
 }
